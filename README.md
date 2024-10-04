@@ -136,7 +136,7 @@ This OCR model leverages Tesseract's capabilities to provide an effective soluti
 ## Overview
 The Environment Captioning Model is a deep learning framework designed to generate descriptive captions for images depicting various environments. By leveraging a combination of Convolutional Neural Networks (CNNs) and transformer architectures, this model can effectively capture and articulate the contextual essence of an image, making it applicable for a wide range of tasks in computer vision and natural language processing.
 
-<img src="images/transformer.png" width="300" alt="Model Overview"> 
+<img src="images/transformer.png" width="600" alt="Model Overview"> 
 *Overview of the Environment Captioning Model Architecture*
 *Source: Cespedes, J. [From Scratch Implementation of Neural Image Captioning](https://www.linkedin.com/pulse/from-scratch-implementation-neural-image-captioning-jorge-cespedes/).*
 
