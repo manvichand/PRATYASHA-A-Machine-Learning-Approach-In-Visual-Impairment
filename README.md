@@ -213,6 +213,10 @@ The PRATYASA app features a user-friendly interface designed specifically for bl
 The intuitive design of the PRATYASA app significantly enhances the mobile experience for visually impaired users, promoting independence and accessibility.
 
 
+*Feel free to contact me for any questions or further information. You can connect with me on [LinkedIn](https://www.linkedin.com/in/prasanna-ghimire-002335188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+).*
+
+
 ## Usage
 To utilize the Environment Captioning Model, clone the repository and install the required dependencies:
 ```bash
@@ -220,6 +224,5 @@ git clone <repository-url>
 pip install -r requirements.txt
 
 
-Feel free to contact me for any questions or further information. You can connect with me on [LinkedIn](https://www.linkedin.com/in/prasanna-ghimire-002335188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-).
+
 
