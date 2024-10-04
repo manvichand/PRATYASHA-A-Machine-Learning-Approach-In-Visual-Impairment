@@ -37,8 +37,8 @@ The Currency Detection Model is designed to identify and classify Nepali currenc
 - **Custom Dataset**: A diverse collection of images of Nepali currency taken in various lighting, angles, and backgrounds.
 - **Kaggle Dataset**: Contains seven classes of Nepali currency notes: 5, 10, 20, 50, 100, 500, and 1000.
 
-![Dataset Examples](images/dataset_sample.png) 
-Figure: Sample representing all labels of currency
+<img src="images/dataset_sample.png" width="300" alt="Sample representing all labels of currency"> 
+*Figure: Sample representing all labels of currency*
 
 ## Preprocessing Steps
 1. **Image Resizing**: All images resized to 224x224 pixels for uniform input.
@@ -50,8 +50,8 @@ Figure: Sample representing all labels of currency
 ## CNN Architecture using ResNet101
 The model employs a Convolutional Neural Network (CNN) architecture based on ResNet101, which excels in hierarchical feature extraction through skip connections that mitigate vanishing gradient issues. The model is trained using hyperparameter tuning to optimize performance.
 
-![CNN Architecture](images/CNN.png) 
-Figure: CNN Architecture <!-- Replace with the path to your image -->
+<img src="images/CNN.png" width="300" alt="CNN Architecture"> 
+*Figure: CNN Architecture
 
 ## Training
 - **Architecture**: ResNet101
@@ -64,24 +64,29 @@ Figure: CNN Architecture <!-- Replace with the path to your image -->
 ## Visualization and Output
 The model's output includes predictions of the detected currency note classes, displayed in a user-friendly format.
 
+
 | Currency Output 1        | Currency Output 2        | Currency Output 3        |
 |--------------------------|--------------------------|--------------------------|
-| ![Currency Output 1](images/currency_detection_1.jpg) | ![Currency Output 2](images/currency_detection_2.jpg) | ![Currency Output 3](images/currency_detection_3.jpg) |
+| <img src="images/currency_detection_1.jpg" width="150" alt="Currency Output 1"> | <img src="images/currency_detection_2.jpg" width="150" alt="Currency Output 2"> | <img src="images/currency_detection_3.jpg" width="150" alt="Currency Output 3"> |
 
 *Figure: Example outputs of the currency detection model.*
 
-![Confusion Matrix](images/confusion_matrix.png) 
-Fig: Confusion matrix for 5 classes
+<img src="images/confusion_matrix.png" width="300" alt="Confusion matrix for 5 classes"> 
+*Fig: Confusion matrix for 5 classes*
+
 ## Training and Validation Metrics
 
 The following plots show the training and validation accuracy and loss during the training of the currency detection model using ResNet101.
 
 | Training and Validation Accuracy         | Training and Validation Loss           |
 |------------------------------------------|----------------------------------------|
-| ![Training and Validation Accuracy](images/trainingandvalidationaccuracy.png) | ![Training and Validation Loss](images/trainingandvalidationloss.png) |
+| <img src="images/trainingandvalidationaccuracy.png" width="300" alt="Training and Validation Accuracy"> | <img src="images/trainingandvalidationloss.png" width="300" alt="Training and Validation Loss"> |
 
 *Figure: Training and validation metrics of the model.*
-![Confusion Matrix](images/currency_detection_classificationreport.png) 
+
+<img src="images/currency_detection_classificationreport.png" width="300" alt="Classification Report"> 
+
+
 
 ## Conclusion
 This model aims to provide accurate and efficient currency detection, enhancing usability for visually impaired individuals and contributing to inclusivity through technology.
@@ -91,7 +96,7 @@ This model aims to provide accurate and efficient currency detection, enhancing 
 ## Overview
 The Optical Character Recognition (OCR) Model utilizes the Tesseract engine to recognize text within images and scanned documents. This model successfully detects characters, words, and text through a series of preprocessing steps and a sophisticated pipeline architecture.
 
-![OCR Overview](images/character_word_recognition.png)  <!-- Replace with the path to your image -->
+<img src="images/character_word_recognition.png" width="300" alt="OCR Overview"> 
 
 ## Image Preprocessing
 1. **Grayscale Conversion**: Converts the input image to grayscale for standardized processing.
@@ -100,8 +105,6 @@ The Optical Character Recognition (OCR) Model utilizes the Tesseract engine to r
 4. **Skew Correction**: Straightens tilted text to improve alignment and recognition accuracy.
 5. **Contrast Enhancement**: Adjusts contrast and brightness for better visibility.
 
-![Preprocessing Steps](path_to_preprocessing_image.jpg)  <!-- Replace with the path to your image -->
-
 ## Model Architecture
 The Tesseract OCR engine follows a multi-stage pipeline architecture that incorporates:
 
@@ -109,7 +112,7 @@ The Tesseract OCR engine follows a multi-stage pipeline architecture that incorp
 - **Bounding Box Creation**: Generates bounding boxes around identified characters.
 - **Grouping and Word Segmentation**: Organizes bounding boxes into lines of text and individual words.
 
-![OCR Architecture](images/tessaract.png)  <!-- Replace with the path to your image -->
+<img src="images/tessaract.png" width="300" alt="OCR Architecture"> 
 
 ## Model Output
 The model effectively recognizes characters and words, displaying them with bounding boxes for clarity.
@@ -117,8 +120,7 @@ The model effectively recognizes characters and words, displaying them with boun
 
 | OCR Output 1                   | OCR Output 2                        |
 |------------------------------------------|----------------------------------------|
-| ![output1](images/ocr1.jpg) | ![output2](images\ocr2.jpg) |
-
+| <img src="images/ocr1.jpg" width="150" alt="output1"> | <img src="images/ocr2.jpg" width="150" alt="output2"> |
 
 ## API Integration
 An API was created to facilitate the OCR process, allowing images to be uploaded via POST requests and returning recognized text in a structured format. The TTS module reads the recognized text aloud for user accessibility.
@@ -134,7 +136,7 @@ This OCR model leverages Tesseract's capabilities to provide an effective soluti
 ## Overview
 The Environment Captioning Model is a deep learning framework designed to generate descriptive captions for images depicting various environments. By leveraging a combination of Convolutional Neural Networks (CNNs) and transformer architectures, this model can effectively capture and articulate the contextual essence of an image, making it applicable for a wide range of tasks in computer vision and natural language processing.
 
-![Model Overview](images/transformer.png)
+<img src="images/transformer.png" width="300" alt="Model Overview"> 
 *Overview of the Environment Captioning Model Architecture*
 *Source: Cespedes, J. [From Scratch Implementation of Neural Image Captioning](https://www.linkedin.com/pulse/from-scratch-implementation-neural-image-captioning-jorge-cespedes/).*
 
@@ -178,14 +180,14 @@ The tuning process allowed us to refine these parameters, enhancing the model's 
 ## Output
 
 The following images demonstrate the captioning results produced by the environment captioning model. Each image is displayed alongside its generated caption.
+| <img src="images/caption1.jpg" width="300" alt="Caption 1"> | <img src="images/caption2.jpg" width="300" alt="Caption 2"> |
+|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
+| *Caption 1*                                                    | *Caption 2*                                                    |
 
-| ![Image 1](images/caption1.jpg) | ![Image 2](images/caption2.jpg) |
-|:-------------------------------------:|:-------------------------------------:|
-| *Caption 1*                          | *Caption 2*                          |
+| <img src="images/caption3.jpg" width="300" alt="Caption 3"> | <img src="images/caption4.jpg" width="300" alt="Caption 4"> |
+|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
+| *Caption 3*                                                    | *Caption 4*                                                    |
 
-| ![Image 3](images/caption3.jpg) | ![Image 4](images/caption4.jpg) |
-|:-------------------------------------:|:-------------------------------------:|
-| *Caption 3*                          | *Caption 4*                          |
 
 
 ## User Interface
