@@ -181,7 +181,7 @@ The tuning process allowed us to refine these parameters, enhancing the model's 
 
 The following images demonstrate the captioning results produced by the environment captioning model. Each image is displayed alongside its generated caption.
 
-| <img src="images/caption1.jpg" width="2000" height="100" alt="Caption 1"> | <img src="images/caption2.jpg" width="200" height="100" alt="Caption 2"> |
+| <img src="images/caption1.jpg" width="200" height="100" alt="Caption 1"> | <img src="images/caption2.jpg" width="200" height="100" alt="Caption 2"> |
 |:-----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
 | *Caption 1*                                                                  | *Caption 2*                                                                  |
 
