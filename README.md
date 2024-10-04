@@ -24,8 +24,9 @@ This project, PRATYASA, leverages AI and machine learning to enhance the quality
 
 The following flowchart illustrates the overall workflow of the PRATYASA project:
 
-![Workflow of PRATYASA Project](images/flowchart.jpg)
-Figure: Working flowchart of overall system
+<img src="images/flowchart.jpg" width="300" alt="Workflow of PRATYASA Project">
+*Figure: Working flowchart of overall system*
+
 
 # Currency Detection Model
 
