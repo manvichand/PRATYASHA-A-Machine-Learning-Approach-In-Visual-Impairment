@@ -207,7 +207,7 @@ The PRATYASA app features a user-friendly interface designed specifically for bl
 7. **Timer-based Interaction**: This feature prevents unintended taps by controlling the listening period for user gestures.
 8. **Dynamic Image Capture**: The app tailors image capture to the selected functionality based on user gestures.
 
-<img src="images/UI.jpg" width="350" height="100" alt="UI">
+<img src="images/UI.jpg" width="350" alt="UI">
 
 *Figure: Simple UI for overall system consists of gesture control for 3 different options.*
 The intuitive design of the PRATYASA app significantly enhances the mobile experience for visually impaired users, promoting independence and accessibility.
