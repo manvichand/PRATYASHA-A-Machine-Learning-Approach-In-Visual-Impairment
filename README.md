@@ -37,7 +37,7 @@ The Currency Detection Model is designed to identify and classify Nepali currenc
 - **Custom Dataset**: A diverse collection of images of Nepali currency taken in various lighting, angles, and backgrounds.
 - **Kaggle Dataset**: Contains seven classes of Nepali currency notes: 5, 10, 20, 50, 100, 500, and 1000.
 
-<img src="images/dataset_sample.png" width="300" alt="Sample representing all labels of currency"> 
+<img src="images/dataset_sample.png" width="500" alt="Sample representing all labels of currency"> 
 *Figure: Sample representing all labels of currency*
 
 ## Preprocessing Steps
@@ -50,7 +50,7 @@ The Currency Detection Model is designed to identify and classify Nepali currenc
 ## CNN Architecture using ResNet101
 The model employs a Convolutional Neural Network (CNN) architecture based on ResNet101, which excels in hierarchical feature extraction through skip connections that mitigate vanishing gradient issues. The model is trained using hyperparameter tuning to optimize performance.
 
-<img src="images/CNN.png" width="300" alt="CNN Architecture"> 
+<img src="images/CNN.png" width="400" alt="CNN Architecture"> 
 *Figure: CNN Architecture
 
 ## Training
@@ -71,7 +71,7 @@ The model's output includes predictions of the detected currency note classes, d
 
 *Figure: Example outputs of the currency detection model.*
 
-<img src="images/confusion_matrix.png" width="300" alt="Confusion matrix for 5 classes"> 
+<img src="images/confusion_matrix.png" width="450" alt="Confusion matrix for 5 classes"> 
 *Fig: Confusion matrix for 5 classes*
 
 ## Training and Validation Metrics
@@ -84,7 +84,7 @@ The following plots show the training and validation accuracy and loss during th
 
 *Figure: Training and validation metrics of the model.*
 
-<img src="images/currency_detection_classificationreport.png" width="300" alt="Classification Report"> 
+<img src="images/currency_detection_classificationreport.png" width="450" alt="Classification Report"> 
 
 
 
@@ -96,7 +96,7 @@ This model aims to provide accurate and efficient currency detection, enhancing 
 ## Overview
 The Optical Character Recognition (OCR) Model utilizes the Tesseract engine to recognize text within images and scanned documents. This model successfully detects characters, words, and text through a series of preprocessing steps and a sophisticated pipeline architecture.
 
-<img src="images/character_word_recognition.png" width="300" alt="OCR Overview"> 
+<img src="images/character_word_recognition.png" width="450" alt="OCR Overview"> 
 
 ## Image Preprocessing
 1. **Grayscale Conversion**: Converts the input image to grayscale for standardized processing.
@@ -112,7 +112,7 @@ The Tesseract OCR engine follows a multi-stage pipeline architecture that incorp
 - **Bounding Box Creation**: Generates bounding boxes around identified characters.
 - **Grouping and Word Segmentation**: Organizes bounding boxes into lines of text and individual words.
 
-<img src="images/tessaract.png" width="300" alt="OCR Architecture"> 
+<img src="images/tessaract.png" width="450" alt="OCR Architecture"> 
 
 ## Model Output
 The model effectively recognizes characters and words, displaying them with bounding boxes for clarity.
@@ -120,7 +120,7 @@ The model effectively recognizes characters and words, displaying them with boun
 
 | OCR Output 1                   | OCR Output 2                        |
 |------------------------------------------|----------------------------------------|
-| <img src="images/ocr1.jpg" width="150" alt="output1"> | <img src="images/ocr2.jpg" width="150" alt="output2"> |
+| <img src="images/ocr1.jpg" width="200" alt="output1"> | <img src="images/ocr2.jpg" width="200" alt="output2"> |
 
 ## API Integration
 An API was created to facilitate the OCR process, allowing images to be uploaded via POST requests and returning recognized text in a structured format. The TTS module reads the recognized text aloud for user accessibility.
@@ -180,13 +180,14 @@ The tuning process allowed us to refine these parameters, enhancing the model's 
 ## Output
 
 The following images demonstrate the captioning results produced by the environment captioning model. Each image is displayed alongside its generated caption.
-| <img src="images/caption1.jpg" width="300" alt="Caption 1"> | <img src="images/caption2.jpg" width="300" alt="Caption 2"> |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| *Caption 1*                                                    | *Caption 2*                                                    |
 
-| <img src="images/caption3.jpg" width="300" alt="Caption 3"> | <img src="images/caption4.jpg" width="300" alt="Caption 4"> |
-|:---------------------------------------------------------------:|:---------------------------------------------------------------:|
-| *Caption 3*                                                    | *Caption 4*                                                    |
+| <img src="images/caption1.jpg" width="2000" height="100" alt="Caption 1"> | <img src="images/caption2.jpg" width="200" height="100" alt="Caption 2"> |
+|:-----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
+| *Caption 1*                                                                  | *Caption 2*                                                                  |
+
+| <img src="images/caption3.jpg" width="200" height="100" alt="Caption 3"> | <img src="images/caption4.jpg" width="200" height="100" alt="Caption 4"> |
+|:-----------------------------------------------------------------------------:|:-----------------------------------------------------------------------------:|
+| *Caption 3*                                                                  | *Caption 4*                                                                  |
 
 
 
@@ -206,7 +207,8 @@ The PRATYASA app features a user-friendly interface designed specifically for bl
 7. **Timer-based Interaction**: This feature prevents unintended taps by controlling the listening period for user gestures.
 8. **Dynamic Image Capture**: The app tailors image capture to the selected functionality based on user gestures.
 
-![UI](images/UI.jpg)
+<img src="images/UI.jpg" width="350" height="100" alt="UI">
+
 *Figure: Simple UI for overall system consists of gesture control for 3 different options.*
 The intuitive design of the PRATYASA app significantly enhances the mobile experience for visually impaired users, promoting independence and accessibility.
 
