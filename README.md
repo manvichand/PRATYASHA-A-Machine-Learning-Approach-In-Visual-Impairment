@@ -214,7 +214,8 @@ The intuitive design of the PRATYASA app significantly enhances the mobile exper
 
 
 *Feel free to contact me for any questions or further information. You can connect with me on [LinkedIn](https://www.linkedin.com/in/prasanna-ghimire-002335188?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-).*
+).
+[LinkedIn](https://www.linkedin.com/in/manvi-chand/)*
 
 ### Demo Video
 *Please find the demo video of *PRATYASHA* from this [link](https://drive.google.com/file/d/1hdn6mxQ2n53EZFR8UHJnFmlTCuixzBIX/view?usp=drive_link)*
